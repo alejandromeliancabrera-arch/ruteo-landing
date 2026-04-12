@@ -167,9 +167,10 @@ h2 {
 
 .timeline-content p {
     color: #696969;
+    text-align: justify;
     font-size: 0.95rem;
-    line-height: 1.5;
 }
+
 
 
 
@@ -178,4 +179,80 @@ h2 {
     color: #00CED1;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.beneficios {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    /* Un gris muy suave para diferenciar secciones */
+}
+
+.titulo-seccion {
+    text-align: center;
+    color: #00CED1;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+/* Contenedor de Tarjetas */
+.contenedor-beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Tarjeta Individual */
+.beneficio-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.beneficio-card:hover {
+    transform: translateY(-5px);
+    /* Efecto sutil al pasar el ratón */
+}
+
+.beneficio-card h3 {
+    color: #00CED1;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+/* Estilo de la Lista */
+.beneficio-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.beneficio-lista li {
+    color: #696969;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+/* El número estilizado */
+.beneficio-lista span {
+    background-color: #00CED1;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    flex-shrink: 0;
 }
