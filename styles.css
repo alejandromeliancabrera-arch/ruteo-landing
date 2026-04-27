@@ -128,7 +128,6 @@ h2 {
     box-sizing: border-box;
 }
 
-/* El punto en la línea */
 .timeline-dot {
     position: absolute;
     width: 16px;
